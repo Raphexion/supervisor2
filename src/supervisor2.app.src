@@ -1,0 +1,14 @@
+{application, supervisor2,
+ [{description, "Supervisor2 - extracted from rabbitmq"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["LICENSE-MPL-RabbitMQ", "LICENSE-APACHE2"]},
+  {links, []}
+ ]}.
